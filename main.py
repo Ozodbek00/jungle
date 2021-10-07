@@ -10,3 +10,10 @@ def Salom(ism):
 
 
 Salom(input())
+
+
+def ddd():
+	d = 4
+	if d % 2 == 0:
+		print("EVEN Number")
+ddd()
