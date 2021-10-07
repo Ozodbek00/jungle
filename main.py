@@ -31,6 +31,29 @@ class Dict:
 		pass
 	def chiqish(self):
 		pass
-	
 
+
+	def menu(self):
+		print("""
+		Lug'at
+		Yangi so'z yozish uchun 1 ni bosing
+		So'zlarni ko'rish uchun 2 ni bosing
+		So'zni izlash uchun 3 ni bosing
+		Chiqish uchun 4 ni bosing
+		""")
+		intooot = input()
+		while intooot not in ["1", "2", "3", "4"]:
+			intooot = input()
+
+		if intooot == '1':
+			self.yangi_soz()
+
+		elif intooot == '2':
+			self.sozlarni_korish()
+
+		elif intooot == '3':
+			self.izlash()
+
+		else:
+			self.chiqish()
 
