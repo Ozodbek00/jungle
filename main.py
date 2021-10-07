@@ -3,13 +3,14 @@ lst = [1,2,3,4,5,6,7,8,9,10]
 for i in lst:
 	print(i)
 
-son=10
-if son> 10:
-print(deeeng)
+son	= 10
+
+if son > 10:
+	print("deeeng")
 
 
 def Salom(ism):
-	print("Salom",ism)
+	print("Salom", ism)
 
 
 Salom(input())
