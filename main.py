@@ -21,3 +21,16 @@ def ddd():
 	if d % 2 == 0:
 		print("EVEN Number")
 ddd()
+
+class Dict:
+	def yangi_soz(self):
+		pass
+	def sozlarni_korish(self):
+		pass
+	def izlash(self):
+		pass
+	def chiqish(self):
+		pass
+	
+
+
